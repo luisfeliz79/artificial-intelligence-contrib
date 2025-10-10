@@ -102,7 +102,7 @@
         },
         "x-ms-examples": {
           "Get Document Classifiers": {
-            "$ref": "./examples/GetDocumentClassifiers.json"
+            "$ref": "./examples-v4/GetDocumentClassifiers.json"
           }
         },
         "x-ms-pageable": {
@@ -188,7 +188,7 @@
         },
         "x-ms-examples": {
           "Get Document Classifier": {
-            "$ref": "./examples/GetDocumentClassifier.json"
+            "$ref": "./examples-v4/GetDocumentClassifier.json"
           }
         }
       },
@@ -263,7 +263,7 @@
         },
         "x-ms-examples": {
           "Delete Document Classifier": {
-            "$ref": "./examples/DeleteDocumentClassifier.json"
+            "$ref": "./examples-v4/DeleteDocumentClassifier.json"
           }
         }
       }
@@ -536,7 +536,7 @@
         },
         "x-ms-examples": {
           "Classify Document from Url": {
-            "$ref": "./examples/ClassifyDocument_Stream.json"
+            "$ref": "./examples-v4/ClassifyDocument_Stream.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -620,7 +620,7 @@
         },
         "x-ms-examples": {
           "Copy Document Classifier To": {
-            "$ref": "./examples/CopyDocumentClassifierTo.json"
+            "$ref": "./examples-v4/CopyDocumentClassifierTo.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -693,7 +693,7 @@
         },
         "x-ms-examples": {
           "Get Classify Document Result": {
-            "$ref": "./examples/GetClassifyDocumentResult.json"
+            "$ref": "./examples-v4/GetClassifyDocumentResult.json"
           }
         }
       }
@@ -754,7 +754,7 @@
         },
         "x-ms-examples": {
           "Authorize Copy of Document Classifier": {
-            "$ref": "./examples/AuthorizeCopyDocumentClassifier.json"
+            "$ref": "./examples-v4/AuthorizeCopyDocumentClassifier.json"
           }
         },
         "x-codegen-request-body-name": "authorizeCopyRequest"
@@ -826,7 +826,7 @@
         },
         "x-ms-examples": {
           "Build Document Classifier": {
-            "$ref": "./examples/BuildDocumentClassifier.json"
+            "$ref": "./examples-v4/BuildDocumentClassifier.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -900,7 +900,7 @@
         },
         "x-ms-examples": {
           "Get Document Models": {
-            "$ref": "./examples/GetDocumentModels.json"
+            "$ref": "./examples-v4/GetDocumentModels.json"
           }
         },
         "x-ms-pageable": {
@@ -1290,7 +1290,7 @@
         },
         "x-ms-examples": {
           "Analyze Document from Url": {
-            "$ref": "./examples/AnalyzeDocument_Stream.json"
+            "$ref": "./examples-v4/AnalyzeDocument_Stream.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -1617,7 +1617,7 @@
         },
         "x-ms-examples": {
           "Analyze Batch Documents": {
-            "$ref": "./examples/AnalyzeBatchDocuments.json"
+            "$ref": "./examples-v4/AnalyzeBatchDocuments.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -1701,10 +1701,10 @@
         },
         "x-ms-examples": {
           "Get Custom Document Model": {
-            "$ref": "./examples/GetDocumentModel_Custom.json"
+            "$ref": "./examples-v4/GetDocumentModel_Custom.json"
           },
           "Get Prebuilt Document Model": {
-            "$ref": "./examples/GetDocumentModel_Prebuilt.json"
+            "$ref": "./examples-v4/GetDocumentModel_Prebuilt.json"
           }
         }
       },
@@ -1778,7 +1778,7 @@
         },
         "x-ms-examples": {
           "Delete Document Model": {
-            "$ref": "./examples/DeleteDocumentModel.json"
+            "$ref": "./examples-v4/DeleteDocumentModel.json"
           }
         }
       }
@@ -1860,7 +1860,7 @@
         },
         "x-ms-examples": {
           "Copy Document Model To": {
-            "$ref": "./examples/CopyDocumentModelTo.json"
+            "$ref": "./examples-v4/CopyDocumentModelTo.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -1923,7 +1923,7 @@
         },
         "x-ms-examples": {
           "List Analyze Batch Documents Results": {
-            "$ref": "./examples/GetAnalyzeBatchDocumentsResults.json"
+            "$ref": "./examples-v4/GetAnalyzeBatchDocumentsResults.json"
           }
         },
         "x-ms-pageable": {
@@ -1997,7 +1997,7 @@
         },
         "x-ms-examples": {
           "Get Analyze Batch Documents Result": {
-            "$ref": "./examples/GetAnalyzeBatchDocumentsResult.json"
+            "$ref": "./examples-v4/GetAnalyzeBatchDocumentsResult.json"
           }
         }
       },
@@ -2060,7 +2060,7 @@
         },
         "x-ms-examples": {
           "Delete Analyze Batch Documents Result": {
-            "$ref": "./examples/DeleteAnalyzeBatchDocumentsResult.json"
+            "$ref": "./examples-v4/DeleteAnalyzeBatchDocumentsResult.json"
           }
         }
       }
@@ -2131,7 +2131,7 @@
         },
         "x-ms-examples": {
           "Get Analyze Document Result": {
-            "$ref": "./examples/GetAnalyzeDocumentResult.json"
+            "$ref": "./examples-v4/GetAnalyzeDocumentResult.json"
           }
         }
       },
@@ -2194,7 +2194,7 @@
         },
         "x-ms-examples": {
           "Delete Analyze Result": {
-            "$ref": "./examples/DeleteAnalyzeDocumentResult.json"
+            "$ref": "./examples-v4/DeleteAnalyzeDocumentResult.json"
           }
         }
       }
@@ -2286,7 +2286,7 @@
         },
         "x-ms-examples": {
           "Get Analyze Document Result Figure": {
-            "$ref": "./examples/GetAnalyzeDocumentResultFigure.json"
+            "$ref": "./examples-v4/GetAnalyzeDocumentResultFigure.json"
           }
         }
       }
@@ -2369,7 +2369,7 @@
         },
         "x-ms-examples": {
           "Get Analyze Document Result PDF": {
-            "$ref": "./examples/GetAnalyzeDocumentResultFPdf.json"
+            "$ref": "./examples-v4/GetAnalyzeDocumentResultFPdf.json"
           }
         }
       }
@@ -2430,7 +2430,7 @@
         },
         "x-ms-examples": {
           "Authorize Copy of Document Model": {
-            "$ref": "./examples/AuthorizeCopyDocumentModel.json"
+            "$ref": "./examples-v4/AuthorizeCopyDocumentModel.json"
           }
         },
         "x-codegen-request-body-name": "authorizeCopyRequest"
@@ -2502,7 +2502,7 @@
         },
         "x-ms-examples": {
           "Build Document Model": {
-            "$ref": "./examples/BuildDocumentModel.json"
+            "$ref": "./examples-v4/BuildDocumentModel.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -2575,7 +2575,7 @@
         },
         "x-ms-examples": {
           "Compose Document Model": {
-            "$ref": "./examples/ComposeDocumentModel.json"
+            "$ref": "./examples-v4/ComposeDocumentModel.json"
           }
         },
         "x-ms-long-running-operation": true,
@@ -2627,7 +2627,7 @@
         },
         "x-ms-examples": {
           "Get Resource Details": {
-            "$ref": "./examples/GetResourceDetails.json"
+            "$ref": "./examples-v4/GetResourceDetails.json"
           }
         }
       }
@@ -2699,7 +2699,7 @@
         },
         "x-ms-examples": {
           "Get Operations": {
-            "$ref": "./examples/GetOperations.json"
+            "$ref": "./examples-v4/GetOperations.json"
           }
         },
         "x-ms-pageable": {
@@ -2783,7 +2783,7 @@
         },
         "x-ms-examples": {
           "Get Operation - Document Model Build": {
-            "$ref": "./examples/GetOperation_DocumentModelBuild.json"
+            "$ref": "./examples-v4/GetOperation_DocumentModelBuild.json"
           }
         }
       }
@@ -6236,7 +6236,7 @@
         },
         "x-ms-examples": {
           "Classify Document from Url": {
-            "$ref": "./examples/ClassifyDocument_Url.json"
+            "$ref": "./examples-v4/ClassifyDocument_Url.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -6309,10 +6309,10 @@
         },
         "x-ms-examples": {
           "Analyze Document from Base64": {
-            "$ref": "./examples/AnalyzeDocument_Base64.json"
+            "$ref": "./examples-v4/AnalyzeDocument_Base64.json"
           },
           "Analyze Document from Url": {
-            "$ref": "./examples/AnalyzeDocument_Url.json"
+            "$ref": "./examples-v4/AnalyzeDocument_Url.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -6360,7 +6360,7 @@
         },
         "x-ms-examples": {
           "Get Operation - Document Model Compose": {
-            "$ref": "./examples/GetOperation_DocumentModelCompose.json"
+            "$ref": "./examples-v4/GetOperation_DocumentModelCompose.json"
           }
         }
       }
@@ -6407,7 +6407,7 @@
         },
         "x-ms-examples": {
           "Get Operation - Document Model Copy To": {
-            "$ref": "./examples/GetOperation_DocumentModelCopyTo.json"
+            "$ref": "./examples-v4/GetOperation_DocumentModelCopyTo.json"
           }
         }
       }
@@ -6454,7 +6454,7 @@
         },
         "x-ms-examples": {
           "Get Operation - Document Classifier Copy To": {
-            "$ref": "./examples/GetOperation_DocumentClassifierCopyTo.json"
+            "$ref": "./examples-v4/GetOperation_DocumentClassifierCopyTo.json"
           }
         }
       }
@@ -6501,7 +6501,7 @@
         },
         "x-ms-examples": {
           "Get Operation - Document Classifier Build": {
-            "$ref": "./examples/GetOperation_DocumentClassifierBuild.json"
+            "$ref": "./examples-v4/GetOperation_DocumentClassifierBuild.json"
           }
         }
       }
@@ -6548,7 +6548,7 @@
         },
         "x-ms-examples": {
           "Get Operation": {
-            "$ref": "./examples/GetOperation.json"
+            "$ref": "./examples-v4/GetOperation.json"
           }
         }
       }
