@@ -3,7 +3,10 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "https://raw.githubusercontent.com/luisfeliz79/artificial-intelligence-contrib/refs/heads/main/document-intelligence/specs/di-specs.yaml",
+    urls: [
+      {url: "../specs/di-specs-v4.0-2024-11-30.yaml", name: "Document Intelligence v4.0"},
+      {url: "../specs/di-specs-v3.1-2023-10-31-preview.yaml", name: "Document Intelligence v3.1"}
+    ],
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
