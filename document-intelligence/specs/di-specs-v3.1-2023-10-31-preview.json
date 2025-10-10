@@ -49,8 +49,9 @@
     "bearerAuth": {
       "type": "http",
       "scheme": "bearer",
-      "bearerFormat": "JWT",
+      "bearerFormat": "JWT"
     },
+
     "ApiKeyAuth": {
       "type": "apiKey",
       "name": "Ocp-Apim-Subscription-Key",
