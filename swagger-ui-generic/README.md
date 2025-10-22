@@ -1,0 +1,1 @@
+- Access the [Swagger UI](https://luisfeliz79.github.io/artificial-intelligence-contrib/swagger-ui-generic/index.html)
